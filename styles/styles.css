@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital@1&display=swap');
+body{
+    padding: 0rem 0rem;
+    font-family: 'Vollkorn', serif;
+}
+
+:root{
+    --primary-color: #991B1B;
+    --secondary-color: black;
+}
+
+.main-heading{
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 1rem 0rem;
+    margin: 0rem 0rem;
+    border-bottom-left-radius: 0.5rem;
+    word-wrap: break-word;
+}
+
+
+.klingon-header{
+    max-width: 40%;
+    display: block;
+    margin: auto;
+    padding: 2rem 2rem;
+
+}
+
+.klingon-heading{
+    /* margin:auto;
+    max-width: 350px; */
+
+    padding-top: 0rem;
+    word-wrap: break-word;
+    text-align: center;
+}
+.klingon-description{
+    max-width: 600px;
+    margin: auto;
+}
+
+.textarea-input-1{
+    width: 80%;
+    height: 10vh;
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+
+ /*Button*/
+.button-translate-1{
+    border-radius: 0.4rem;
+    background-color: var(--primary-color);
+    color: black);
+    padding: 0.5rem 1rem;
+    font-family: 'Vollkorn', serif;
+    border: black solid 1px;
+}
+.output-1{
+    width: 80%;
+    height: 10vh;
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 1rem;
+    overflow:scroll;
+}
+
+/*Link*/
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+/*List*/
+.list-non-bullet{
+    list-style: none;
+}
+.list-item-inline{
+    /* list-style: none; */
+    display: inline;
+    padding: 0rem 0.5rem; 
+}
+
+/*Footer:*/
+/*Footer: */
+.footer{
+    background-color: var(--secondary-color);
+    padding: 1rem 1rem;
+    color: white;
+    border-radius: 0.5rem;
+    text-align: center;
+    word-wrap: break-word;
+    margin-top: 1rem;
+}
+
+.footer-heading{
+    font-weight: bold;
+}
+
+.footer .link{
+    color: white;   
+}
+
+.footer .ul{
+    padding-inline-start: 0px;  /*override the user style- sheet. Here, the user is Web- browser*/
+}
